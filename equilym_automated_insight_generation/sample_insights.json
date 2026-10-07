@@ -1,0 +1,38 @@
+[
+  {
+    "insight_id": "INS-0001",
+    "type": "trend",
+    "indicator": "anc_coverage",
+    "entity": "Ahmedabad",
+    "period": "2026-08",
+    "value": 69.0,
+    "prev_value": 85.0,
+    "change_pct": -18.82,
+    "severity": "High",
+    "explanation": "ANC Coverage in Ahmedabad decreased by 18.8% compared to 2026-07. The observed change exceeds the configured 10.0% threshold."
+  },
+  {
+    "insight_id": "INS-0002",
+    "type": "outlier",
+    "indicator": "anc_coverage",
+    "entity": "Mehsana",
+    "period": "2026-08",
+    "value": 42.0,
+    "prev_value": null,
+    "change_pct": null,
+    "severity": "High",
+    "explanation": "Mehsana's anc coverage value of 42.00 is outside the configured IQR range."
+  },
+  {
+    "insight_id": "INS-0003",
+    "type": "trend",
+    "indicator": "high_risk_cases",
+    "entity": "Mehsana",
+    "period": "2026-08",
+    "value": 28.0,
+    "prev_value": 11.0,
+    "change_pct": 154.55,
+    "severity": "High",
+    "explanation": "High Risk Cases in Mehsana increased by 154.5% compared to 2026-07. The observed change exceeds the configured 10.0% threshold."
+  }
+]
